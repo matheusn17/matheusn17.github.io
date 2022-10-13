@@ -1,0 +1,8 @@
+.section {
+    height: 100vh;
+}
+
+#intro {
+    background-image: url("/assets/bg-1.jpg");
+    background-size: cover;
+}
