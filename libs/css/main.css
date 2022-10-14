@@ -1,8 +1,36 @@
+@font-face {
+    font-family: "Helvetica local";
+    src: url("assets/fonts/Helvetica.ttf") format("ttf");
+}
 
+@font-face {
+    font-family: "Helvetica Oblique local";
+    src: url("assets/fonts/Helvetica-Oblique.ttf") format("ttf");
+}
 
 #intro {
-    background-image: url("/assets/bg-1.jpg");
+    background-image: url("/assets/bg-1-blurry.jpg");
+    background-position: right;
     background-size: cover;
+}
+
+.titulo .main {
+    font-weight: bold;
+    font-size: 6.5rem;
+}
+
+.titulo .sub {
+    font-size: 1.6rem;
+}
+
+.card-header {
+    background-color: white;
+    border-bottom: none;
+}
+
+.github-button {
+    float: right;
+    bottom: 0px;
 }
 
 .nopadding {
@@ -11,7 +39,7 @@
 }
 
 .section {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .carretel-list a {
@@ -23,4 +51,9 @@
 
 .carretel-list a:hover {
     background-color: darkgrey;
+}
+
+.scroller {
+    position: absolute;
+    bottom: 0px;
 }

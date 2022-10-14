@@ -10,33 +10,47 @@
 </head>
 <body>
     <main class="container-fluid">
-        <div id="intro" class="row d-flex justify-content-center d-flex align-items-center section">
-            -
+        <div id="intro" class="row d-flex align-content-center align-items-center text-center section">
+            <div class="d-none d-md-block titulo">
+                <h1 class="main">Matheus Lima</h1>
+                <p class="sub">Desenvolvedor full stack e futuro engenheiro da computação</p>
+            </div>   
+            
+            <div class="d-md-none titulo">
+                <h1 id="main">Matheus Lima</h1>
+                <p id="sub">Desenvolvedor full stack e futuro engenheiro da computação</p>
+            </div>
+            
+            <a class="scroller" href="#eu">
+                <img class="mb-4" src="assets/arrow-down-circle.svg" width="40px">
+            </a>
         </div>
 
         <div id="eu" class="row d-flex justify-content-center d-flex align-items-center section bg-light">
-            <div class="col-2"></div>
-            <div class="col-3"></div>
-            <div class="col-5">
+            <div class="col-md-2 d-sm-none d-md-block"></div>
+            <div class="col-md-3 d-none d-md-block">
+                <img class="card-img-bottom" src="assets/laptop_guy.png" alt="laptop_guy">
+            </div>
+            <div class="col-md-5">
                 <h3>QUEM SOU</h3>
-                <p>Meu nome é Matheus Lima, estudante de Engenharia da Computação, sou desenvolvedora Full Stack.</p>
+                <p>Meu nome é Matheus Lima, estudante de Engenharia da Computação, sou desenvolvedor Full Stack. Atualmente sou estagiário na SEDUC de Rondônia.</p>
                 <hr />
                 <p>Onde me encontrar:</p>
                 <div>
                     <a href = "mailto:matheus.limatiton@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
                     <a href="https://www.linkedin.com/in/matheus-lima-titon/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
                     <a href="https://github.com/matheusn17" target="_blank"><img src="https://img.shields.io/badge/github-%23333.svg?style=for-the-badge&logo=github&logoColor=white"></a>
-                    <a href="https://github.com/matheusn17" target="_blank"><img src="https://img.shields.io/badge/(69)%2098445%204834-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
+                    <!-- a href="https://github.com/matheusn17" target="_blank"><img src="https://img.shields.io/badge/(69)%2098445%204834-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a -->
                 </div>
 
             </div>
-            <div class="col-2"></div>
+            <div class="col-2 d-sm-none d-md-block"></div>
         </div>
 
         <div id="curriculo" class="row d-flex justify-content-center d-flex align-items-center section">
             <div class="col-8">
                 <div class="row">
-                    <div class="col-4"><h3>Experiencia</h3></div>
+                    <div class="col-md-4 mb-3"><h3>Experiencia</h3></div>
                     <div class="col-8">
                         <h2>SEDUC - RO</h2>
                         <h5>Estagiário programador - Cargo atual desde Abril de 2022</h5>
@@ -46,7 +60,7 @@
                 </div>
                 <hr />
                 <div class="row">
-                    <div class="col-4"><h3>Formação</h3></div>
+                    <div class="col-md-4 mb-3"><h3>Formação</h3></div>
                     <div class="col-8">
                         <h2>Engenharia da Computação</h2>
                         <h5>Faculdade Sapiens - desde 2018 e cursando</h5>
@@ -56,34 +70,51 @@
         </div>
 
         <div id="projetos_pessoais" class="row d-flex justify-content-center d-flex align-items-center section bg-light">
-            <div class="col-8">
-                <div class="row text-center">
-                    <h3>Alguns de meus projetos pessoais</h3>
+            <div class="col">
+                <div class="row text-center mb-5 mt-5">
+                    <h2>Alguns de meus projetos pessoais</h2>
                 </div>
-                <div class="row justify-content-center carretel-list">
-                    <a href="#" onclick="projetos.seleciona('EventosApp')" >EventosApp</a>
-                    <a href="#" onclick="projetos.seleciona('Concessionaria')" >Concessionaria</a>
-                    <a href="#" onclick="projetos.seleciona('PortifolioDotNet')" >PortifolioDotNet</a>
+                <div class="row justify-content-center">
+                        <div class="col-md-3 mb-4">
+                            <div class="card h-100">
+                                <div class="card-header">
+                                    <h5 class="card-title" style="float: left;">PortfolioDotNet</h5>
+                                    <button type="button" class="btn btn-outline-dark github-button"><img src="assets/github.svg" /></button>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Um projeto de App Web no qual eu demonstro algumas coisas que sei fazer com a framework MudBlazor</p>
+                                </div>
+                                <img class="card-img-bottom border-top" src="assets/projetos_carousel/portfoliodotnet.png" alt="PortfolioDotNet">
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 mb-4">
+                            <div class="card h-100">
+                                <div class="card-header">
+                                    <h5 class="card-title" style="float: left;">Concessionaria</h5>
+                                    <button type="button" class="btn btn-outline-dark github-button"><img src="assets/github.svg" /></button>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Uma loja de carros virtual fictícia criada para fins acadêmicos.</p>
+                                </div>
+                                <img class="card-img-bottom border-top" src="assets/projetos_carousel/concessionaria.png" alt="Concessionaria">
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 mb-4">
+                            <div class="card h-100">
+                                <div class="card-header">
+                                    <h5 class="card-title" style="float: left;">PortfolioDotNet</h5>
+                                    <button type="button" class="btn btn-outline-dark github-button"><img src="assets/github.svg" /></button>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Uma vizualizador de eventos fictício criado para fins acadêmicos.</p>
+                                </div>
+                                <img class="card-img-bottom border-top" src="assets/projetos_carousel/EventosApp.png" alt="EventosApp">
+                            </div>
+                        </div>
+                    
                 </div>
-            </div>
-            
-            <div id="projetosCarousel" class="carousel slide w-100 nopadding" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="assets/projetos_carousel/portfolio_dotnet1.png" class="d-block w-100">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="assets/projetos_carousel/portfolio_dotnet2.png" class="d-block w-100">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#projetosCarousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Anterios</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#projetosCarousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Proximo</span>
-                </button>
             </div>
                 
         </div>
