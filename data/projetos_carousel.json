@@ -1,0 +1,26 @@
+[
+    {
+        "id" : 1,
+        "nome" : "EventosApp",
+        "imagens" : [
+                "assets/projetos_carousel/eventosapp1.png",
+                "assets/projetos_carousel/eventosapp2.png"
+            ]
+    },
+    {
+        "id" : 2,
+        "nome" : "Concessionaria",
+        "imagens" : [
+                "assets/projetos_carousel/cencessionaria1.png",
+                "assets/projetos_carousel/cencessionaria2.png"
+            ]
+    },
+    {
+        "id" : 3,
+        "nome" : "PortfolioDotNet",
+        "imagens" : [
+                "assets/projetos_carousel/portfolio_dotnet1.png",
+                "assets/projetos_carousel/portfolio_dotnet2.png"
+            ]
+    }
+]

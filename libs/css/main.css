@@ -6,3 +6,14 @@
     background-image: url("/assets/bg-1.jpg");
     background-size: cover;
 }
+
+.carretel-list a {
+    width: auto;
+    display: inline;
+    text-decoration:none;
+    color: #212529;
+}
+
+.carretel-list a:hover {
+    background-color: darkgrey;
+}
