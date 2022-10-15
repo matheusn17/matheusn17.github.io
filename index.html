@@ -21,12 +21,16 @@
                 <p id="sub">Desenvolvedor full stack e futuro engenheiro da computação</p>
             </div>
             
-            <a class="scroller" href="#eu">
-                <img class="mb-4" src="assets/arrow-down-circle.svg" width="40px">
+            <a class="scroller-bottom py-2" href="#eu">
+                <img src="assets/chevron-down.svg" width="40px">
             </a>
         </div>
 
         <div id="eu" class="row d-flex justify-content-center d-flex align-items-center section bg-light">
+            <a class="scroller-top py-2" href="#intro">
+                <img src="assets/chevron-up.svg" width="40px">
+            </a>
+            
             <div class="col-md-2 d-sm-none d-md-block"></div>
             <div class="col-md-3 d-none d-md-block">
                 <img class="card-img-bottom" src="assets/laptop_guy.png" alt="laptop_guy">
@@ -45,9 +49,15 @@
 
             </div>
             <div class="col-2 d-sm-none d-md-block"></div>
+            <a class="scroller-bottom py-2" href="#curriculo">
+                <img src="assets/chevron-down.svg" width="40px">
+            </a>
         </div>
 
         <div id="curriculo" class="row d-flex justify-content-center d-flex align-items-center section">
+            <a class="scroller-top py-2" href="#eu">
+                <img src="assets/chevron-up.svg" width="40px">
+            </a>
             <div class="col-8">
                 <div class="row">
                     <div class="col-md-4 mb-3"><h3>Experiência</h3></div>
@@ -67,9 +77,16 @@
                     </div>
                 </div>
             </div>
+            <a class="scroller-bottom py-2" href="#projetos_pessoais">
+                <img src="assets/chevron-down.svg" width="40px">
+            </a>
         </div>
 
         <div id="projetos_pessoais" class="row d-flex justify-content-center d-flex align-items-center section bg-light">
+            <a class="scroller-top py-2" href="#curriculo">
+                <img src="assets/chevron-up.svg" width="40px">
+            </a>
+            
             <div class="col">
                 <div class="row text-center mb-5 mt-5">
                     <h2>Alguns de meus projetos pessoais</h2>
@@ -79,7 +96,8 @@
                             <div class="card h-100">
                                 <div class="card-header">
                                     <h5 class="card-title" style="float: left;">PortfolioDotNet</h5>
-                                    <a type="button" class="btn btn-outline-dark github-button" href="https://github.com/matheusn17/PortifolioDotNet" target="_blank"><img src="assets/github.svg" /></a>
+                                    <a type="button" class="btn btn-outline-dark custom-button" href="https://github.com/matheusn17/PortifolioDotNet" target="_blank"><img src="assets/github.svg" /></a>
+                                    <a type="button" class="btn btn-outline-dark custom-button mx-1" data-bs-toggle="tooltip" data-bs-placement="top" title="Este é um trabalho recente e em andamento. Ele ainda esta com pouco ou quase nenhum conteúdo."><img src="assets/exclamation-lg.svg" /></a>
                                 </div>
                                 <div class="card-body">
                                     <p class="card-text">Um projeto de App Web no qual eu demonstro algumas coisas que sei fazer com a framework MudBlazor</p>
@@ -92,7 +110,7 @@
                             <div class="card h-100">
                                 <div class="card-header">
                                     <h5 class="card-title" style="float: left;">Concessionaria</h5>
-                                    <a type="button" class="btn btn-outline-dark github-button" href="https://github.com/matheusn17/concessionaria" target="_blank"><img src="assets/github.svg" /></a>
+                                    <a type="button" class="btn btn-outline-dark custom-button" href="https://github.com/matheusn17/concessionaria" target="_blank"><img src="assets/github.svg" /></a>
                                 </div>
                                 <div class="card-body">
                                     <p class="card-text">Uma loja de carros virtual fictícia criada para fins acadêmicos.</p>
@@ -105,7 +123,7 @@
                             <div class="card h-100">
                                 <div class="card-header">
                                     <h5 class="card-title" style="float: left;">EventosApp</h5>
-                                    <a type="button" class="btn btn-outline-dark github-button" href="https://github.com/matheusn17/EventosApp" target="_blank"><img src="assets/github.svg" /></a>
+                                    <a type="button" class="btn btn-outline-dark custom-button" href="https://github.com/matheusn17/EventosApp" target="_blank"><img src="assets/github.svg" /></a>
                                 </div>
                                 <div class="card-body">
                                     <p class="card-text">Uma vizualizador de eventos fictício criado para fins acadêmicos.</p>
@@ -122,5 +140,6 @@
     </main>
 
     <script src="libs/js/bootstrap.bundle.min.js"></script>
+    <script src="libs/js/enable_bootstrap_tooltip.js"></script>
 </body>
 </html>

@@ -27,9 +27,10 @@
     border-bottom: none;
 }
 
-.github-button {
+.custom-button {
     float: right;
     bottom: 0px;
+    --bs-btn-hover-bg: #eee;
 }
 
 .nopadding {
@@ -39,6 +40,7 @@
 
 .section {
     min-height: 100vh;
+    position: relative;
 }
 
 .carretel-list a {
@@ -52,7 +54,31 @@
     background-color: darkgrey;
 }
 
-.scroller {
-    position: absolute;
+.scroller-top {
+	display: flex;
+	justify-content: center;
+	position: relative;
+    top: 0px;
+}
+
+.scroller-top {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+    top: 0px;
+}
+
+.scroller-top:hover {
+    background-color: #0005;
+}
+
+.scroller-bottom {
+	display: flex;
+	justify-content: center;
+	position: absolute;
     bottom: 0px;
+}
+
+.scroller-bottom:hover {
+    background-color: #0005;
 }
